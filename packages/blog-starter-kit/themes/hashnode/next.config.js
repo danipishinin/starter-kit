@@ -1,3 +1,4 @@
+
 const { request, gql } = require('graphql-request');
 
 const ANALYTICS_BASE_URL = 'https://hn-ping2.hashnode.com';
@@ -76,11 +77,11 @@ const config = {
     return [
       {
         source: "/blog",
-        destination: "https://starter-ew1285ixm-danipishinins-projects.vercel.app/blog",// -> Replace https://starter-kit-rose-seven.vercel.app with your own Vercel deployment URL from step 1
+        destination: "https://starter-ew1285ixm-danipishinins-projects.vercel.app/blog",
       },
       {
         source: "/blog/:path*",
-        destination: "https://starter-ew1285ixm-danipishinins-projects.vercel.app/blog/:path*", //-> Replace https://starter-kit-rose-seven.vercel.app with your own Vercel deployment URL from step 1
+        destination: "https://starter-ew1285ixm-danipishinins-projects.vercel.app/blog/:path*",
       },
     ];
   },
